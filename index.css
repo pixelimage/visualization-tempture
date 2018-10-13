@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
+body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }
+body{
+	padding: 20px;
+	background: #f6f6f6;
+	font-family: 'Oswald', sans-serif;
+}
+svg{
+	box-shadow:0px 0px 15px rgba(0,0,0,0.05);
+	background: #fff;
+}
+tspan{fill:#000;}
+.axis path,
+.axis line{fill: none;stroke: #eee;}
+.axis text{font-size:10px;}
+.num{font-weight: bold;}
+.title_bg{fill:#222;}
+.t_title{font-size:16px;font-weight: bold;fill:#fff;}
+.t_title tspan{font-weight: normal;fill:#fff;}
+.t_note{font-size:10px;fill:#888;}
+.t_year{font-size:60px;fill:red;}
+.t_month{font-size:14px;}
+.t_spot{font-size:16px;}
+.t_cell{font-size:10px;opacity: 0.6;}
+.t_cell{font-size:10px;opacity: 0.6;}
+.t_thumb_year{font-size:14px;}
+.t_thumb_year{opacity: 0;transition-duration: 0.1s;}
+.t_thumb_year.show{opacity:1;}
+.t_graf_white{font-size:12px;fill:#fff;}
+.t_graf_white2{font-size:12px;fill:#ff8;}
+.stroke1{stroke-width:2;stroke:#fff;fill:none;}
+.stroke2{stroke-width:2;stroke:#ff8;fill:none;}
+.stroke3{stroke-width:1.5;stroke:red;fill:none;}
+.stroke4{stroke-width:1.5;stroke:#fae8d1;fill:none;}
+.t_av_1900{fill:red;font-size:12px;}
